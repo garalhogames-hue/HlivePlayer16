@@ -16,7 +16,6 @@ export const metadata = {
     shortcut: "/favicon.ico",
     apple: "/radio-logo-transparent.png",
   },
-    generator: 'v0.app'
 }
 
 export default function RootLayout({

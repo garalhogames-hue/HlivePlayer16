@@ -129,3 +129,10 @@
     opacity: 1;
   }
 }
+/* Remover badge v0 caso ainda apareça */
+a[href*="v0.dev"],
+[data-v0],
+.v0-badge,
+div:has(> a[href*="v0.dev"]) {
+    display: none !important;
+}
